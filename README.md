@@ -98,8 +98,8 @@ $ NODE_OPTIONS=--max_old_space_size=4096 NODE_ENV=test jest --detectOpenHandles 
         ✓ The number of vowel occurrences in text should be 6
         ✓ The number of vowel occurrences in text should be 6
       [CASE2]Thank you for your cooperation!!
-        ✓ The number of vowel occurrences in text should be 6
-        ✓ The number of vowel occurrences in text should be 6
+        ✓ The number of vowel occurrences in text should be 12
+        ✓ The number of vowel occurrences in text should be 12
     [EXCEPTION TEST]
       [CASE1]Validation
         ✓ should throw an error(text is null!) (18 ms)
@@ -130,8 +130,8 @@ $ NODE_OPTIONS=--max_old_space_size=4096 NODE_ENV=test jest --verbose --silent
         ✓ The number of vowel occurrences in text should be 6
         ✓ The number of vowel occurrences in text should be 6 (1 ms)
       [CASE2]Thank you for your cooperation!!
-        ✓ The number of vowel occurrences in text should be 6
-        ✓ The number of vowel occurrences in text should be 6
+        ✓ The number of vowel occurrences in text should be 12
+        ✓ The number of vowel occurrences in text should be 12
     [EXCEPTION TEST]
       [CASE1]Validation
         ✓ should throw an error(text is null!) (5 ms)

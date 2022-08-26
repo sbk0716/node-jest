@@ -37,13 +37,13 @@ describe('[countVowels]', () => {
       });
     });
     describe('[CASE2]Thank you for your cooperation!!', () => {
-      test('The number of vowel occurrences in text should be 6', () => {
+      test('The number of vowel occurrences in text should be 12', () => {
         const result = countVowels('Thank you for your cooperation!!');
         expect(result).toBe(12);
         expect(result).toBeGreaterThan(0);
       });
 
-      test('The number of vowel occurrences in text should be 6', () => {
+      test('The number of vowel occurrences in text should be 12', () => {
         const result = countVowels('ThankYouForYourCooperation');
         expect(result).toBe(12);
         expect(result).toBeGreaterThan(0);
