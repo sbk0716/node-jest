@@ -1,4 +1,21 @@
 # Unit testing for NodeJS using Jest Framework
+## Project Structure
+
+```sh
+% tree
+.
+├── README.md
+├── jest.config.js
+├── package.json
+├── src
+│   ├── app.js
+│   ├── app.test.js
+│   └── fn.js
+└── yarn.lock
+
+1 directory, 7 files
+% 
+```
 
 ## Available Scripts
 
